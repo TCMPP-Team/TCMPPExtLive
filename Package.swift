@@ -31,8 +31,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TCMPPExtLive",
-            url: "https://tmf-warehouse-1314481471.cos.ap-beijing.myqcloud.com/tcmpp/ios-sdk/noshark/TCMPPExtLive/2.2.1/1/TCMPPExtLive_2.2.1.xcframework.zip",
-            checksum: "REPLACE_WITH_ACTUAL_SHA256"
+            url: "https://tmf-warehouse-1314481471.cos.ap-beijing.myqcloud.com/tcmpp/ios-sdk/TCMPPExtLive/2.2.1/TCMPPExtLive_2.2.1.zip",
+            checksum: "680c5ca0892da8d8455c325eda3beaa1952017fe51f51bb1ceaad8c676974c66"
         )
     ]
 )
