@@ -31,8 +31,6 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TCMPPExtLive",
-            // TODO: replace with the real COS url and checksum after uploading
-            //       (generate it with: swift package compute-checksum <zip>)
             url: "https://tmf-warehouse-1314481471.cos.ap-beijing.myqcloud.com/tcmpp/ios-sdk/noshark/TCMPPExtLive/2.2.1/1/TCMPPExtLive_2.2.1.xcframework.zip",
             checksum: "REPLACE_WITH_ACTUAL_SHA256"
         )
